@@ -4,7 +4,6 @@ import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder, StandardScaler
-from sklearn.metrics import accuracy_score
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
@@ -13,6 +12,7 @@ st.title("🐧 Penguin Classification System")
 st.write("""
 This application classifies penguins into species based on their physical characteristics.
 Adjust the input features below to see predictions from multiple models.
+Currently developed for numerically categorized data, will soon develop for image-based.
 """)
 
 
@@ -58,6 +58,7 @@ for name, model in models.items():
     model.fit(X_train_scaled, y_train)
 
 # To see model performance uncomment the below code lines
+# from sklearn.metrics import accuracy_score
 # st.header("Model Performance")
 # model_accuracy = {}
 #
