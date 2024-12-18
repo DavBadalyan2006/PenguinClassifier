@@ -103,6 +103,6 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 For questions or suggestions, please reach out to:
-- **Developer**: [Your Name]
-- **Email**: [Your Email]
-- **GitHub**: [Your GitHub Link]
+- **Developer**: Davit Badalyan
+- **Email**: dbadalyan2006@gmail.com
+- **GitHub**: https://github.com/DavBadalyan2006
